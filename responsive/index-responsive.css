@@ -1,0 +1,332 @@
+/*responsive mobile max-width:"438px */
+
+@media only screen and (max-width: 700px){
+    
+    
+    div.text-opening h1{
+        font-size: 32px;
+    }
+    .button-light{
+        width:100%;
+    }
+    div.aboutus-sections{
+        display: block;
+    }
+    .aboutus-texto{
+        width:100%;
+    }
+
+    #poster{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(90deg, rgba(0,0,0,0.4)0%, rgba(0,0,0,0.4) 50%), url(../img/pexels-catherine-augustin-3049121.jpg) ;
+        background-size: cover;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    nav .logo {
+        width: 50px;
+        
+    }
+
+    /* MENUHAMBURGER */
+    /* button.ham{
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+         
+       } 
+
+       
+    header .navbar ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        background-color:#000;
+
+    }  */
+
+
+    /* SOBRE NOSOTROS */
+
+
+    /* frase */
+
+    div.aboutus-frase {
+        height: 30vh;
+        padding: 20px;
+    }
+
+    div.aboutus-text h3 {
+        font-size: 17px;
+        text-transform: none;
+    }
+
+    div.aboutus-text p {
+        font-size: 16px;
+    }
+
+
+
+
+
+    section.aboutus-sections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 2fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: #364029;
+        z-index: -2;
+        padding: 56px 0 20px 0;
+        
+    }
+
+    div.aboutus-texto{
+        padding: 0 20px;
+        font-size: 17px;
+    }
+
+    div.aboutus-texto p {
+        padding: 20px;
+        
+    }
+
+    div.conteiner-images {
+        width: 100%;
+        height: 600px;
+    }
+
+    div.aboutus-texto h2{
+        font-size: 27px;
+        color: #fff;
+    }
+    
+    
+    div hr{
+        width: 100px;
+        
+    }
+
+    .button-light{
+        width: 90%;
+    
+    }
+
+
+
+    img.image1 {
+        
+        top: 20%;
+        width: 200px;
+        height: auto;
+        left: 0;
+        margin: 17% 4%;
+        bottom: 0;
+        right: 0;
+    }
+
+    img.image2 {
+        
+        left: 43%;
+        width: 200px;
+        height: auto;
+        top: 62%;
+    }
+
+    img.image3 {
+        
+        left: 43%;
+        width: 200px;
+        height: auto;
+        bottom: 45%;
+    }
+
+
+
+
+
+
+
+    /* NUESTROS VALORES */
+
+    div .our-values { 
+        display: grid; 
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(6, 1fr); 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+        gap: 20px;
+        margin: auto;
+        }
+
+    div.transition-text {
+            
+            height: 250px;
+            width: 250px;
+            padding: 15px;
+        }
+
+    div#title-sectionvalues  h2{
+        font-size: 27px;
+    }  
+
+    div .value{
+        margin: auto;
+        height: 250px;
+        width: 250px;
+    }
+
+    .transition-text p{
+        color: #fff;
+        text-align: justify;
+        max-width: 150px;
+        line-height: 1.5em;
+    }
+
+
+
+     /* SUMATE A LA INICIATIVA */
+
+    div.joinus{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 2fr;
+       
+    }
+
+    div.joinus-text1 {
+        grid-area: 1 / 1 / 2 / 2;
+        font-size: 27px;
+    }
+    div.joinus-text1 h2 {
+        font-size: 27px;
+    }
+
+
+    div.joinus-text2 {
+        grid-area: 2 / 1 / 2 / 3;
+        text-align: center;
+        width: 100%;
+    }
+    button.button-light {
+        font-size: 15px;
+        margin-top: 15px;
+       
+    }
+
+    /* SERVICIOS */
+
+    div.container-services{
+        padding: 56px 0 20px 0;
+    }
+
+    div.text-services p {
+        padding: 0 40px;
+    }
+
+
+
+    ul.services::before{
+     
+        display: none;
+       
+    }
+
+    div li.item {
+        padding: 0 30px 40px 10px;
+    }
+
+    ul li.item:before{
+     
+        display: none;
+        
+    }
+
+    ul li.item:nth-child(odd) {
+        flex-direction: column;
+        
+    }
+    ul li.item:nth-child(even) {
+        flex-direction: column-reverse;
+        
+    }
+
+    li .cell:first-child {
+        text-align: center;
+    }
+
+    div h4.lp-h4 {
+        display: block;
+        text-align: center;
+    }
+
+    div.cell {
+        width: 100%;
+        margin: 10px;
+    }
+
+    /* CONSULTA CON UN ESPECIALISTA */
+
+    div.container-text h2 {
+        font-size: 27px;
+    }
+
+    div.container-specialist button {
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* FOOTER */
+
+    div.footer-title {
+        flex-direction: column;
+       
+    }
+    div.footer-title .logo-footer {
+        margin-right: 0px;
+        width: 100px;
+    }
+
+    h3.footer-h3{
+        font-size: 17px;
+        padding: 20px;
+    }
+
+    div.footer-terminos {
+        
+        flex-direction: column;
+        text-align: center;
+    }
+
+    div.footer-terminos p {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 979px) {
+
+
+     /* NUESTROS VALORES */
+
+     div .our-values { 
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        place-items: center;
+        padding: 10px;
+        }
+
+
+}
