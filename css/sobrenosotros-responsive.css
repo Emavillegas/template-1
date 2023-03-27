@@ -1,0 +1,109 @@
+
+@media only screen and (max-width: 700px){
+
+    /* QUIENES SOMOS */
+
+    img.whoweare-img {
+        height: 270px;
+        width: auto;
+    }
+
+    
+    .whoweare h2 {
+        font-size: 27px;
+        
+    }
+
+    div.whoweare{
+        padding: 56px 0 20px 0;
+    }
+
+    /* FOTOS AL COSTADO */
+
+    div.team-all{
+        margin-bottom: 40px;
+    }
+
+    .team-side2 h3 {
+        margin-top: 20px;
+    }
+
+    .team-all {
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    div.team-side1 {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .container-team .img-costado {
+        width: 300px;
+        margin-right: 0px;
+    }
+
+    .team-side2 {
+        margin: -20% auto auto auto;
+        padding: 20px 21px;
+        
+    }
+    .team-side2 p{
+        max-width: 300px;
+    }
+
+    /* equipo 2 */
+    .team-all:nth-child(even){
+        padding: 0px;
+    }
+
+    .team-all:nth-child(even) .img-costado {
+        width: 300px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+
+    .team-all:nth-child(even) .team-side2 {
+        margin: -20% auto auto auto;
+    }
+
+
+     /* FOOTER */
+
+     div.footer-title {
+        flex-direction: column;
+       
+    }
+    div.footer-title .logo-footer {
+        margin-right: 0px;
+        width: 100px;
+    }
+
+    h3.footer-h3{
+        font-size: 17px;
+        padding: 20px;
+    }
+
+    div.footer-terminos {
+        
+        flex-direction: column;
+        text-align: center;
+    }
+
+    div.footer-terminos p {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+
+    /* TRABAJEMOS POR TU PASION */
+    .text-opening h1 {
+        font-size: 32px;
+    }
+    .text-opening p{
+        font-size: 15px;
+    }
+
+}

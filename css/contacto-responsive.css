@@ -1,0 +1,63 @@
+@media only screen and (max-width: 700px){
+
+
+
+
+
+
+
+        /* contact text */
+
+        .contact {
+             flex-direction: column;  
+             padding: 56px 0 20px 0;
+        }
+
+
+        .contact-item {
+            width: 100%;
+        }
+
+
+        /* form */
+
+        form{
+            padding: 20px;
+            
+        }
+
+        .div-form {
+            width: 100%;
+        }
+
+
+
+
+
+        /* FOOTER */
+
+        div.footer-title {
+            flex-direction: column;
+           
+        }
+        div.footer-title .logo-footer {
+            margin-right: 0px;
+            width: 100px;
+        }
+    
+        h3.footer-h3{
+            font-size: 17px;
+            padding: 20px;
+        }
+    
+        div.footer-terminos {
+            
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        div.footer-terminos p {
+            padding: 10px;
+            font-size: 12px;
+        }
+}
